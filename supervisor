@@ -1,0 +1,15 @@
+# Bot 1
+updater1 = Updater("BOT_TOKEN_1")
+dp1 = updater1.dispatcher
+# Add handlers for Bot 1
+...
+
+# Bot 2
+updater2 = Updater("BOT_TOKEN_2")
+dp2 = updater2.dispatcher
+# Add handlers for Bot 2
+...
+
+# Run each bot
+updater1.start_polling()
+updater2.start_polling()
